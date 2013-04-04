@@ -27,6 +27,10 @@ Supportte requires these plugins in order to function properly
 * Crayon Syntax Highlighter
 * WP Mail SMTP
 
+### DEMO
+
+[Aquagraphite Support Forum](http://support.aquagraphite.com/)
+
 ### Installation instruction
 
 * coming soon
