@@ -55,7 +55,7 @@
 			<ul>
 				<li><strong>Item: </strong><?php echo $item['name']?></li>
 				<li><strong>Buyer: </strong><?php echo $item['buyer']?></li>
-				<li><strong>Date: </strong><?php echo $item['date']?></li>
+				<li><strong>Date: </strong><?php echo date(get_option('date_format').' '.get_option('time_format'), strtotime($item['date']))?></li>
 				<?php if( current_user_can('manage_options') ) { ?><li><strong>Purchase Code: </strong><?php echo $item['purchase_code']?></li><?php } ?>
 			</ul>
 			<?php } ?>
