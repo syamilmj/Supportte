@@ -41,23 +41,29 @@
 
 	$user_id = bbp_get_user_id();
 	$curr_user_id = bbp_get_user_id('', false, true);
-	$item = get_user_meta($user_id, $key = 'item_details', $single = true);
+	$items = get_user_meta($user_id, $key = 'purchased_items', $single = true);
 
 	if( current_user_can('manage_options') || $user_id == $curr_user_id && is_user_logged_in() ) : ?>
-
+	
+	<?php if($items) { ?>
 	<div id="purchase-details">
 
 		<h2 class="entry-title">Purchase Details</h2>
 		<div class="bbp-user-section">
+
+			<?php foreach($items as $item) { ?>
 			<ul>
 				<li><strong>Item: </strong><?php echo $item['name']?></li>
 				<li><strong>Buyer: </strong><?php echo $item['buyer']?></li>
 				<li><strong>Date: </strong><?php echo $item['date']?></li>
 				<?php if( current_user_can('manage_options') ) { ?><li><strong>Purchase Code: </strong><?php echo $item['purchase_code']?></li><?php } ?>
 			</ul>
+			<?php } ?>
+
 		</div>
 
 	</div>
+	<?php } ?>
 
 	<?php endif; ?>
 

@@ -157,6 +157,12 @@ li.bbp-topic-freshness{
 	width: 15%;
 }
 
+	.bbp-body .bbp-topic-last-poster,
+	.bbp-body .bbp-topic-reply-count,
+	.bbp-body .bbp-topic-freshness {
+		font-size: 12px;
+	}
+
 #bbpress-forums li.bbp-body ul.forum,
 #bbpress-forums li.bbp-body ul.topic {
 	border-top: 1px solid #eee;
@@ -813,6 +819,7 @@ div.bbp-template-notice.not-logged-in a {
 		-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 		-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 		box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+		text-shadow: none;
 	}
 		#forums-search .searchsubmit:hover {
 			border-color: rgba(4, 69, 85, 0.37);
@@ -985,3 +992,10 @@ body.my-account #bbp-author-topics-started {
 	.aq-topic-status .resolved { color: green }
 	.aq-topic-status .not-resolved { color: red }
 	.aq-topic-status .in-progress { color: grey }
+
+/** Topic status */
+#bbps-topic-status input[type="submit"],
+#bbps-topic-move input[type="submit"] {
+	padding: 2px 10px;
+	font-size: 13px;
+}
