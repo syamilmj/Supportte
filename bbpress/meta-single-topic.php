@@ -6,7 +6,7 @@
 <div class="bbp-single-topic-meta">
 	
 	<div class="back-to">
-		<a href="<?php echo home_url() ?>">&larr; Back to discusssions</a>
+		<a href="<?php echo home_url() ?>">&larr; Back to discussions</a>
 	</div>
 
 	<?php aq_display_topic_status(); ?>
