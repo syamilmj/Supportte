@@ -14,7 +14,6 @@ Supportte is clean WordPress Theme that's intended for authors on Envato Marketp
 * Topic icons ( resolved, not resolved, in progress )
 * Custom & overall better search page than default BBPress search
 * Syntax highlighter (crayon)
-* Boobs
 
 ### Supported Plugins
 
@@ -27,9 +26,11 @@ Supportte requires these plugins in order to function properly
 * Crayon Syntax Highlighter
 * WP Mail SMTP
 
-### DEMO
+### DEMO / Screenshot
 
 [Aquagraphite Support Forum](http://support.aquagraphite.com/)
+
+![screenshot](http://i.imgur.com/8lEiADD.jpg)
 
 ### Installation instruction
 

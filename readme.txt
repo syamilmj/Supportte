@@ -14,7 +14,6 @@ Supportte is clean WordPress Theme that's intended for authors on Envato Marketp
 * Topic icons ( resolved, not resolved, in progress )
 * Custom & overall better search page than default BBPress search
 * Syntax highlighter (crayon)
-* Boobs
 
 ### Supported Plugins
 
