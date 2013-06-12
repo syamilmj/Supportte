@@ -512,5 +512,4 @@ function twentyten_posted_in() {
 }
 endif;
 
-require_once('bbpress/bbpress-functions.php');
 require_once('widgets/forum-categories.php');
