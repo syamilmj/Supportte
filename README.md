@@ -19,12 +19,18 @@ Supportte is clean WordPress Theme that's intended for authors on Envato Marketp
 
 Supportte requires these plugins in order to function properly
 
+**Available from Wordpress plugins repository**
+
 * [BBPress](http://wordpress.org/plugins/bbpress/)
+* [Search Everything](https://wordpress.org/plugins/search-everything/)
+* [Crayon Syntax Highlighter](https://wordpress.org/plugins/crayon-syntax-highlighter/)
+* [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/)
+
+**Available from external repositories**
+
+* [Getshopped Support Forum Plugin](http://instinct-downloads.s3.amazonaws.com/plugin-tests/GetShopped_support_forums.zip)
 * [Aqua Verifier](https://github.com/syamilmj/Aqua-Verifier)
-* [Getshopped Support Forum Plugin]()
-* [Search Everything]()
-* [Crayon Syntax Highlighter]()
-* [WP Mail SMTP]()
+
 
 ### DEMO / Screenshot
 
